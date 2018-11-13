@@ -6,6 +6,12 @@ html{
   background-size: cover;
   }
 
+@media screen and (min-width: 600px) {
+  html {
+  background-position: left;
+    }
+  }
+
   body {
   color:#6691F6 ;
  font-family: 'PT Sans', sans-serif;
@@ -18,12 +24,24 @@ h2 {
 	margin-bottom: 0.5em;
 	font-weight: 600;
 }
+@media screen and (max-width: 600px) {
+  .h2 {
+  font-size: 3em;
+    }
+  }
 
 p {
-	line-height: 1.125em;
+ line-height: 1.125em;
   margin-bottom: 0.5em;
   font-size: 1.2em;
 } 
+
+
+@media screen and (max-width: 600px) {
+  .h2 {
+  font-size: 1em;
+    }
+  }
 
 .logo {
 	width: 200px;
@@ -46,9 +64,18 @@ p {
   width: 90%;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+	top: 60%;
+    }
+  }
 /*contact
 */
 
+form {
+margin-bottom: 4em;
+}
 
 @media screen and (min-width: 600px) {
 form {
