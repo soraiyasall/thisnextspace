@@ -44,8 +44,8 @@ p {
   }
 
 .logo {
-	width: 200px;
-	height: 200px;
+	width: 10em;
+	height: 10em;
 	padding: .5em;
   z-index: 1;
   position: fixed;
@@ -67,7 +67,7 @@ p {
 
 @media screen and (max-width: 600px) {
   .container {
-	top: 60%;
+	top: 65%;
     }
   }
 
