@@ -125,9 +125,8 @@ form {
   font-weight: bold;
   color: white;
   letter-spacing: 1px;
-  border-radius: 0 5px 5px 0;
+  border-radius: 1em;
   cursor: pointer;
-  transition: background .3s ease-in-out;
 }
   
 
