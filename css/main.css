@@ -1,0 +1,139 @@
+html{
+  background: url(/Users/soraiyasalemohamed/Desktop/Websites/thisnextspace/img/officegray.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+  body {
+  color:#6691F6 ;
+ font-family: 'PT Sans', sans-serif;
+	text-align: center;
+}
+
+h2 {
+  font-size: 3.5em;
+  color: white;
+	margin-bottom: 0.5em;
+	font-weight: 600;
+}
+
+p {
+	line-height: 1.125em;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+} 
+
+.logo {
+	width: 200px;
+	height: 200px;
+	padding: .5em;
+  z-index: 1;
+  position: fixed;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+
+  .container {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+/*contact
+*/
+
+
+@media screen and (min-width: 600px) {
+form {
+  display: inline-flex;
+  width: 450px;
+  margin:auto;
+  }
+}
+
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+  
+#email {
+  width: 75%;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+@media screen and (max-width: 600px) {
+  #email {
+    margin: 0.75em;
+    }
+  }
+  
+
+
+#submit {
+  width: 25%;
+  height: 46px;
+  background: #3cb4a6;
+  font-family: inherit;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+  
+
+#submit:hover {
+  background: #F4AB33;
+}
+  
+
+input:focus {
+  outline: none;
+  outline: 2px solid #3cb4a6;
+  box-shadow: 0 0 2px #3cb4a6;
+}
+
+  footer {
+	padding: 1em 0;
+  letter-spacing: .05em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #F4AB33;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
